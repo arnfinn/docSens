@@ -2,17 +2,20 @@
 title: "Lokal lagring og bruk av sensitive data"
 author: "Are Edvardsen, SKDE"
 date: '`r Sys.Date()`'
-site: bookdown::bookdown_site
 documentclass: book
-papersize: A4
 lof: yes
-description: "Veiledning i installasjon og bruk av VeraCrypt for sikker lagring og sletting av data ved Senter for klinisk dokumentajson og evaluering (SKDE), Helse Nord RHF."
+description: Veiledning i installasjon og bruk av VeraCrypt for sikker lagring og
+  sletting av data ved Senter for klinisk dokumentajson og evaluering (SKDE), Helse
+  Nord RHF.
+papersize: A4
+site: bookdown::bookdown_site
 cover-image: images/logo.svg
 ---
 
+
 # Forord {-}
 
-```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://helse-nord.no/skde', fig.cap="skde-logo"}
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://helse-nord.no/skde'}
 knitr::include_graphics('images/logo.svg', dpi = NA)
 ```
 
@@ -47,14 +50,17 @@ tilgrensende tekst som er særlig verdt å merke seg:
 ```{block2, info-text, type='rmdinfo'}
 Utfyllende opplysninger, men som ikke er vesentlig for å følge
 brukerveiledningen.
+
 ```
 
 ```{block2, important-text, type='rmdimportant'}
 Utheving av et viktig moment.
+
 ```
 
 ```{block2, danger-text, type='rmddanger'}
 Et vesentlig budskap som om det blir misforstått innebærer en fare.
+
 ```
 
 
@@ -80,3 +86,4 @@ Gjeldende status for dokumentet er versjon 0.9 som ligger til godkjenning hos
 ledergruppa ved SKDE. Are Edvardsen har ansvar for innarbeiding av nødvendige
 endringer fortløpende. Det er også mulig for andre å (foreslå) endringer
 direkte i dokumentet ved "pull requests" gjennom [GitHub](https://github.com/areedv/docSens/).
+

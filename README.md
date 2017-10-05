@@ -1,4 +1,6 @@
+[![Build Status](https://travis-ci.org/areedv/docSens.png)](https://travis-ci.org/areedv/docSens)
+
 # Lokal lagring og bruk av sensitive data
 
-Repository for [denne](https://bookdown.org/areedv/docSens/) "boka".
+Siste utgave av finnes [her](https://areedv.github.io/docSens/)
 
